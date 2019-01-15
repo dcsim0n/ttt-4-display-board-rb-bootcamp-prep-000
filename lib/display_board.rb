@@ -4,7 +4,7 @@
 
 def display_board(board)
   #Do stuff fool 
-  
+  puts board[0..2]
 end
 
 def print_separator
@@ -14,3 +14,7 @@ end
 def build_row(row)
   row_string = ""
   for blk in row
+    row_string + " #{blk} "
+  end
+  row_string
+end
