@@ -22,4 +22,5 @@ def build_row(row)
   end
   row_string.insert(3,'|')
   row_string.insert(6,'|')
+  
 end
