@@ -8,4 +8,8 @@ def display_board(board)
 end
 
 def print_separator
-  puts ""
+  puts "-----------"
+end
+
+def build_row(row)
+  
