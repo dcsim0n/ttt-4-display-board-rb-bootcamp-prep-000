@@ -18,7 +18,7 @@ end
 def build_row(row)
   row_string = ""
   for blk in row
-    row_string + " #{blk} "
+    row_string = row_string + " #{blk} "
   end
   row_string.insert(0,'|')
   row_string.insert(6,'|')
