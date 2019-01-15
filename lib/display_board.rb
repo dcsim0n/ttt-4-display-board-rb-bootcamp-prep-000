@@ -4,7 +4,11 @@
 
 def display_board(board)
   #Do stuff fool 
-  puts board[0..2]
+  puts build_row(board[0..2])
+  print_separator
+  puts build_row(board[3..5])
+  print_separator
+  puts build_row(board[6..8])
 end
 
 def print_separator
