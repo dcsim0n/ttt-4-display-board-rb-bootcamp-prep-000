@@ -12,4 +12,4 @@ def print_separator
 end
 
 def build_row(row)
-  
+  for 
