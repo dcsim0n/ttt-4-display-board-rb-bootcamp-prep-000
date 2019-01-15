@@ -20,5 +20,6 @@ def build_row(row)
   for blk in row
     row_string + " #{blk} "
   end
-  row_string
+  row_string.insert(3,'|')
+  row_string.insert(6,'|')
 end
