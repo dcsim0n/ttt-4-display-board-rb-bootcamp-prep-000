@@ -12,4 +12,5 @@ def print_separator
 end
 
 def build_row(row)
-  for 
+  for blk in row
+    
